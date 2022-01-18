@@ -3,3 +3,6 @@
   height: 300px;
   object-fit: cover;
 }
+.container video {
+  width: 400px;
+}
