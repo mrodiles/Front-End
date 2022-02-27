@@ -1,7 +1,9 @@
 p {
   text-align: center;
   text-shadow: 5px 0 gray;
+  text-orientation: sideways;
   margin-top: 200px;
+  padding-top: 100px;
   font-size: 50px;
   font-weight: bold;
   width: 300px;
@@ -9,10 +11,19 @@ p {
   background: rgb(238, 163, 163);
   border-radius: 10px;
   box-shadow: 0 0 10px 10px rgb(203, 201, 201);
+  border: 10px solid pink;
+  overflow: hidden;
+  overflow: scroll;
 }
 
 .box {
   display: flex;
   justify-content: center;
   justify-content: space-evenly;
+
+  /* display: inline-block; */
+}
+
+.box ::before {
+  content: "Hello ";
 }
