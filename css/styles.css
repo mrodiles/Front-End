@@ -1,43 +1,18 @@
-body {
-  margin: 10px;
-}
-
-.container img {
+p {
+  text-align: center;
+  text-shadow: 5px 0 gray;
+  margin-top: 200px;
+  font-size: 50px;
+  font-weight: bold;
   width: 300px;
   height: 300px;
-  object-fit: cover;
-}
-.container video {
-  width: 400px;
+  background: rgb(238, 163, 163);
+  border-radius: 10px;
+  box-shadow: 0 0 10px 10px rgb(203, 201, 201);
 }
 
-.ul {
-  list-style-type: none;
+.box {
   display: flex;
-  flex-direction: column;
-}
-
-p {
-  color: orange;
-}
-
-/* Selectors - Type, ID, Class, Attributes */
-/* id must be unique */
-#product {
-  color: burlywood;
-}
-
-.product {
-  font: size 50px;
-}
-a[target="_blank"] {
-  color: aquamarine;
-}
-
-a[href*="google"] {
-  color: orange;
-}
-
-a[href^="https"] {
-  color: orange;
+  justify-content: center;
+  justify-content: space-evenly;
 }
